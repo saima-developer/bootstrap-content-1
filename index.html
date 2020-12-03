@@ -1,0 +1,282 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+
+    <title>Bootstrap layout-1</title>
+  </head>
+
+  <body>
+<!--header sec-->
+    <header>
+        <div class="container-fluid" >
+            <div class="row" style="background-color: #041E42">
+                <div class="col-md-2 col-sm-3 mt-3 mb-2 text-left">
+                    <img src="images/logo.png" alt="logo image">
+                </div>
+                <div class="col-md-10 col-sm-9 mt-3 mb-2 text-right">
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                  <button style="background-color:#041E42;border: none;"  type="button" class="btn btn-secondary">Home</button>
+                  <button style="background-color:#041E42;border: none;" type="button" class="btn btn-secondary">Contact Us</button>
+
+                  <div class="btn-group" role="group">
+                    <button style="background-color:#041E42;border: none;"  id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Our Clients
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a style="background-color:#041E42;border: none;color: white;"  class="dropdown-item" href="#">Investors</a>
+                      <a style="background-color:#041E42;border: none;color: white;"  class="dropdown-item" href="#">Depositors</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--banner sec-->    
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center banner" >
+                   
+                </div>
+            </div>
+        </div>
+    </section> 
+<!--about us sec-->    
+<section>
+    <div class="container-fluid"  >
+
+        <div class="row justify-content-center" style="background-color: black;">
+            <div class="col-10 " >
+               <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-12  mt-5 mb-5 ">
+                      
+                      <div class="card" style="width: 25rem;">
+                      <img src="images/pic.jpg" class="image pic" alt="img pic">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-12 ml-4 mt-5 mb-5 " > 
+                    <form style="border:transparent;border-radius: 10px;color: white;">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+
+                </div>
+              </div>
+             </div>
+                
+        </div>
+    </div>
+ </section>
+<!--service sec-->    
+<section>
+    <div class="container-fluid">
+        <div class="row justify-content-center" style="background-color:#041E42">
+            <div class="col-11" >
+               <div class="row justify-content-center">
+                   <div class="col-lg-4 col-md-3 col-sm-12 mt-2 mb-2 " >
+                       <div class="row justify-content-center">
+                        <div class="col-10 mt-2 mb-1" >
+                           <table class="table table-hover table-dark">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td colspan="2">Larry the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        </div>   
+                       </div>
+                       
+                   </div>
+                   <div class="col-lg-5 col-md-6 col-sm-12 mt-3 mb-3" >
+                       <div class="row justify-content-center" style="background-color:#041E42;color:white;" >
+                        <div class="col-10 mt-2 mb-1 text-center" >
+                         
+                      <div class="input-group mb-3" >
+                      <div class="input-group-prepend" >
+                        <span style="background-color:#041E42;color:white;" class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                      </div>
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <label style="background-color:#041E42;color:white;" class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <div class="custom-file" >
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label style="background-color:#041E42;color:white;" class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                      </div>
+                      <div class="input-group-append">
+                        <span style="background-color:#041E42;color:white;"class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button style="background-color:#041E42;color:white;" class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Button</button>
+                      </div>
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03">
+                        <label style="background-color:#041E42;color:white;" class="custom-file-label" for="inputGroupFile03">Choose file</label>
+                      </div>
+                    </div>
+
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                        <label style="background-color:#041E42;color:white;" class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                      </div>
+                      <div class="input-group-append">
+                        <button style="background-color:#041E42;color:white;" class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+                      </div>
+                    </div>
+                   </div>
+                 </div>
+               </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mt-3 mb-3" >
+                    <div class="row justify-content-center" >
+                      <div class="col-10 mt-2 mb-1 text-center">
+                          
+                    <p>
+                     <h3 style="color: white;">Best Buy</h3>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Learn More
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+                   </div>
+
+               </div>
+            </div>
+          </div>
+        </div>
+        </div>    
+   </div> 
+</section>
+<!--footer sec-->
+<footer>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            
+            <div class="col-12 text-center mt-4">
+                 <span class="badge badge-pill badge-primary"><img src="images/logo6.png" alt="logo3"></span>
+                 
+                  <span class="badge badge-pill badge-secondary"><img src="images/logo2.png" alt="logo3"></span>
+                  <span class="badge badge-pill badge-success"><img src="images/logo4.png" alt="logo3"></span>
+                  <span class="badge badge-pill badge-danger"> <img src="images/logo1.png" alt="logo1"></span>
+                  <span class="badge badge-pill badge-warning"><img src="images/logo7.png" alt="logo3"></span>
+                  <span class="badge badge-pill badge-info"><img src="images/logo8.png" alt="logo3"></span>
+                  <span class="badge badge-pill badge-dark"><img src="images/logo9.png" alt="logo3"></span>
+                  <span class="badge badge-pill badge-dark"><img src="images/logo10.png" alt="logo3"></span>
+                    
+             </div>
+           </div>
+                <div class="row justify-content-center">
+                  
+                
+                <div class="col-md-3 col-sm-12 text-left mt-4 mb-2" >
+                    <h6>@2020 Welmart All Right reserved</h6>
+                </div>
+                <div class="col-md-4 offset-md-3 col-sm-12 text-right mt-4 mb-2 ">
+                  <p>please include your reference number: UXBOOBTMOZ</p>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</footer>  
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
